@@ -77,6 +77,15 @@ header {
   background-color: #201c2e;
 }
 
+/* caja de busqueda */
+.search-form {
+  display: flex;
+  background-color: #fff;
+  border-radius: 28px;
+}
+.search-form:focus-within {
+  border: 3px solid aquamarine;
+}
 .search-box {
   width: 30%;
   color: aliceblue;
@@ -85,14 +94,18 @@ header {
   justify-content: center;
   align-items: center;
 }
-.search-box input[type=text] {
-  float: right;
+.search-box input[type="text"] {
   padding: 6px;
   border: none;
-  margin-top: 8px;
-  margin-right: 16px;
   font-size: 17px;
-  border-radius: 50px;
+  border-radius: 28px 0 0 28px;
+}
+.boton-lupa {
+  border: none;
+  box-shadow: none;
+  background-color: #fff;
+  padding-right: 5px;
+  border-radius: 28px;
 }
 
 @media (max-width: 470px) {
