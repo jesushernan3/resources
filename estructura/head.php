@@ -13,10 +13,10 @@
 
   <header>
     <div class="nav-bar">
-      <h1>RECURSOS</h1>
+      <h1><a href="index.php">RECURSOS</a></h1>
       <?php include('parciales/menu-principal.php');?>
       <div class="search-box">
-        aca va la caja de busqueda
+      <input type="text" placeholder="Search..">
       </div>
     
     </div>
